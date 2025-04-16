@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Importing the finest ceramics and marble from Türkiye, China, and Iran. High-quality products and guaranteed delivery to all Iraqi governorates." />
+    <meta name="keywords" content="ceramics, marble, import, Türkiye, China, Iran, high-quality, delivery, Iraq" />
+    <meta name="author" content="Wessam Ghazi" />
+  <link rel="stylesheet" href="styles.css">
+  <title>الهلال</title>
+  
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo"><strong data-i18n="companyname">شركة الهلال الفضي الدولي
+    </strong></div>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" data-i18n="home">Home</a>
+        <a href="#about" data-i18n="about">About</a>
+        <a href="#faq" data-i18n="">F&Q</a>
+        <a href="#contact" data-i18n="contact">Contact</a>
+        <select id="lang-select">
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+            <option value="ku">کوردی</option>
+          </select>
+      </div>
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  
+    <section id="home" class="hero">
+     <div class="filtter">
+    
+
+        <div class="hero-text-div">
+          <div data-i18n="companyname"></div>
+          <div class="hero-text" data-i18n="dischero">
+          
+          </div>
+
+        </div>
+        
+   
+       
+        <div class="hero-form">
+          <form>
+          <p data-i18n="getinfo">Get more information</p>
+          
+          <input type="text" id="name" data-i18n-placeholder="name" placeholder="Your name" />     
+           <input type="email" data-i18n-placeholder="email" placeholder="E-mail"     >
+          <input type="text" data-i18n-placeholder="phone" placeholder="Phone Number"  >
+          <textarea placeholder="اترك رسالة" data-i18n="message"></textarea>
+          <button data-i18n="send">إرسال</button>
+        </form>
+        </div>
+     </div>
+      </section>
+  
+<!-- About -->
+<section id="about" class="about-section">
+    <div class="about-text">
+      <h2 data-i18n="aboutus">من نحن</h2>
+      <p data-i18n="aboutusdisc">نحن شركة متخصصة في استيراد أفضل أنواع السيراميك والمرمر من تركيا، الصين، وإيران. نقدم منتجات عالية الجودة وخدمة توصيل مضمونة لجميع المحافظات العراقية.</p>
+      <strong data-i18n="companyowner">صاحب الشركة:</strong> <p data-i18n="companyownerdisc"> أحمد علي، بخبرة طويلة في المجال وتاريخ حافل بالنجاحات في تقديم أفضل المواد بأسعار تنافسية.</p>
+      <ul>
+        <li data-i18n="one">شحن سريع وآمن</li>
+        <li data-i18n="two">أسعار مميزة</li>
+        <li data-i18n="three">منتجات متنوعة وفاخرة</li>
+      </ul>
+    </div>
+    <div class="about-img">
+      <img src="./about.jpeg" alt="مقر الشركة">
+    </div>
+
+    
+  </section>
+  <div class="container">
+    <div class="info-row">
+      <div class="info-box">
+        <div class="info-title" data-i18n="constantcommunication"></div>
+        <div class="info-description" data-i18n="constantcommunicationdis"></div>
+      </div>
+      <div class="info-box">
+        <div class="info-title" data-i18n="punctuality"></div>
+        <div class="info-description" data-i18n="punctualitydis"></div>
+      </div>
+      <div class="info-box">
+        <div class="info-title" data-i18n="highquality"></div>
+        <div class="info-description" data-i18n="highqualitydis"></div>
+      </div>
+      <div class="info-box">
+        <div class="info-title" data-i18n="bestmarbleprice"></div>
+        <div class="info-description" data-i18n="bestmarblepricedis"></div>
+      </div>
+    </div>
+  </div>
+  <!-- =========================== -->
+     
+  <div class="wrapper">
+    <div class="item item1"><img class="images" src="./marble/marble1.jpg" /></div>
+    <div class="item item2"><img class="images" src="./marble/marble2.jpg" /></div>
+    <div class="item item3"><img class="images" src="./marble/marble3.jpg" /></div>
+    <div class="item item4"><img class="images" src="./marble/marble4.jpg" /></div>
+    <div class="item item5"><img class="images" src="./marble/marble5.jpg" /></div>
+    <div class="item item6"><img class="images" src="./marble/marble6.jpg" /></div>
+    <div class="item item7"><img class="images" src="./marble/marble7.jpg" /></div>
+    <div class="item item8"><img class="images" src="./marble/marble8.jpg" /></div>
+  </div>
+ 
+  <!-- =========================== -->
+
+
+  <!-- F*Q -->
+
+  <section id="faq" class="faq-section">
+    <h2 data-i18n="question">الأسئلة الأكثر شيوعًا</h2>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question" data-i18n="questionone">كم هي أقل كمية للاستيراد؟</div>
+      <div class="faq-answer">نعم، توجد كميات محددة حسب نوع المنتج.</div>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question" data-i18n="questiontwo">ماذا لو تعرضت المنتجات للكسر؟</div>
+      <div class="faq-answer">نقوم بتعويض المنتجات التالفة حسب شروط الضمان.</div>
+    </div>
+    <div class="faq-item" onclick="toggleFAQ(this)">
+      <div class="faq-question" data-i18n="questionthree">ما هي خيارات الشحن التي تقدمها؟</div>
+      <div class="faq-answer">نقدم شحن بري وبحري وجوي حسب الطلب.</div>
+    </div>
+  </section>
+ 
+  
+  <!-- Contact -->
+  <section id="contact" class="contact-section" id="contact">
+    <div class="contact-form">
+      <form method="post" name="contact_form"
+      action="contact-form-handler.php">
+          Your Name:
+          <input type="text" name="name">
+          Email Address:
+          <input type="text" name="email">
+          Message:
+          <textarea name="message"></textarea>
+          <input type="submit" value="Submit">
+      </form>
+
+      <!-- <form>
+        <p data-i18n="getinfo">Get more information</p>
+        
+        <input type="text" id="name" data-i18n-placeholder="name" placeholder="Your name" />     
+         <input type="email" data-i18n-placeholder="email" placeholder="E-mail"     >
+        <input type="text" data-i18n-placeholder="phone" placeholder="Phone Number"  >
+        <textarea placeholder="اترك رسالة" data-i18n="message"></textarea>
+        <button data-i18n="send">إرسال</button>
+      </form> -->
+    </div>
+    <div class="contact-info">
+      <h3 data-i18n="contactinfo">معلومات التواصل</h3>
+      <p><a href="tel:750-477-3300">📞 +964 750 477 3300</a></p>
+      <p><a href="tel:750-445-2831">📞 +964 750 445 2831</a></p>
+      <p><a href="tel:770-777-7721">📞 +964 770 777 7721</a></p>
+      <p><a href="tel:542-310-0453">📞 +90 542 310 0453</a></p>
+      <p><a href="mailto:pwrbuster-wessambarwary@gmail.com">📧 wessambarwary@gmail.com</a></p>
+      
+      
+      
+
+
+    
+      
+      
+      <p></p>
+      <p data-i18n="lucation">📍 الموقع: العراق - تركيا</p>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 شركة الهلال الفضي الدولي  - جميع الحقوق محفوظة
+  </footer>
+
+ 
+
+  <script> function toggleFAQ(item) {
+    const allAnswers = document.querySelectorAll('.faq-answer');
+    allAnswers.forEach(answer => answer.style.display = 'none');
+    const answer = item.querySelector('.faq-answer');
+    answer.style.display = 'block';
+  }</script>
+  
+  <script src="script.js" type="module"></script>
+  
+</body>
+</html>
